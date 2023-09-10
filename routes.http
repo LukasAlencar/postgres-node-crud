@@ -1,0 +1,28 @@
+POST http://localhost:3333/videos
+Content-Type: application/json
+
+
+{
+    "title": "sasd",
+    "description": "Este é o terceiro video",
+    "duration": 90
+}
+
+###
+
+GET http://localhost:3333/videos
+
+###
+
+PUT http://localhost:3333/videos/f74189ff-513a-409a-9bcc-a802fdb45bfc
+Content-Type: application/json
+
+{
+    "title": "Video 08",
+    "description": "Este é o oitavo video",
+    "duration": 90
+}
+
+###
+
+DELETE http://localhost:3333/videos/f74189ff-513a-409a-9bcc-a802fdb45bfc
